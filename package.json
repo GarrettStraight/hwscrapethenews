@@ -1,5 +1,5 @@
 {
-  "name": "hwscrapethenews",
+  "name": "news-scraper",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,21 +9,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GarrettStraight/hwscrapethenews.git"
+    "url": "git@github.com:GarrettStraight/hwscrapethenews.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/GarrettStraight/hwscrapethenews/issues"
+    "url": "https://github.com/GarrettStraight/hwscrapethenews"
   },
   "homepage": "https://github.com/GarrettStraight/hwscrapethenews#readme",
   "dependencies": {
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.17.2",
     "cheerio": "^1.0.0-rc.2",
-    "express": "^4.16.4",
-    "express-handlebars": "^3.0.2",
-    "jquery": "^3.3.1",
-    "mongoose": "^4.13.18",
-    "request": "^2.88.0"
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.11.8",
+    "request": "^2.81.0"
   }
 }
